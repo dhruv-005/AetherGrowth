@@ -1,0 +1,9 @@
+{
+  "name": "ab-testing-mcp",
+  "version": "1.0.0",
+  "description": "AetherGrowth Dynamic Split Experimentation MCP Server",
+  "main": "build/index.js",
+  "scripts": { "build": "tsc", "start": "tsc && node build/index.js" },
+  "dependencies": { "@modelcontextprotocol/sdk": "^0.1.0" },
+  "devDependencies": { "typescript": "^5.4.0", "@types/node": "^20.0.0" }
+}
