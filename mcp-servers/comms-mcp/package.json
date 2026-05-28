@@ -1,0 +1,9 @@
+{
+  "name": "comms-mcp",
+  "version": "1.0.0",
+  "description": "AetherGrowth Multi-Channel Delivery Gateway MCP Server",
+  "main": "build/index.js",
+  "scripts": { "build": "tsc", "start": "tsc && node build/index.js" },
+  "dependencies": { "@modelcontextprotocol/sdk": "^0.1.0" },
+  "devDependencies": { "typescript": "^5.4.0", "@types/node": "^20.0.0" }
+}
